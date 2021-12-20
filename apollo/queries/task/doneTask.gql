@@ -1,0 +1,16 @@
+mutation($id: ID!, $checked: Boolean!) {
+  updateTask(
+    id: $id
+    data: { checked: $checked }
+  ) {
+    data: data {
+      id
+      attributes {
+        title
+        description
+        updatedAt
+        checked
+      }
+    }
+  }
+} 

@@ -1,0 +1,19 @@
+query Tasks {
+  tasks {
+    data {
+      id
+      attributes {
+            description
+            title
+            checked
+            creator {
+              data {
+              attributes {
+                username
+              }
+            }
+        }
+      }
+    }
+  }
+}   

@@ -1,0 +1,13 @@
+query Task($id:ID!) {
+  task(id:$id) {
+    data {
+      id
+      attributes {
+            description
+            title
+            checked
+        }
+      }
+    }
+  }
+   

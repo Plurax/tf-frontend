@@ -1,0 +1,15 @@
+mutation($title:String!,$description:String!) {
+  createTask(
+    data: { title: $title, description: $description, checked: false }
+  ) {
+    data: data {
+      id
+      attributes {
+        title
+        description
+        updatedAt
+        checked
+      }
+    }
+  }
+}
