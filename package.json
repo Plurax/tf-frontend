@@ -20,7 +20,7 @@
     "graphql": "^15.7.2",
     "graphql-tag": "^2.12.5",
     "nuxt": "^2.15.7",
-    "v-calendar": "^2.3.2"
+    "v-calendar": "^2.3.4"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",
