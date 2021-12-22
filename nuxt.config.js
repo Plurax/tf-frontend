@@ -22,9 +22,10 @@ export default {
       //      default: '~/plugins/apollo-client.js'
       default: {
         httpEndpoint: 'http://localhost:1337/graphql',
-        tokenName: 'rawJwt'
+        tokenName: 'auth._token.local',
       }
     },
+    authenticationType: '', 
     watchLoading: "@/apollo/loadingHandler.js",
     errorHandler: "@/apollo/errorHandler.js",
     defaultOptions: {
