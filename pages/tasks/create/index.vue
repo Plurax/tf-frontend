@@ -67,7 +67,8 @@ export default {
     return {
       tasks: [],
       error: null,
-      task_title: null
+      task_title: null,
+      description: null
     }
   },
   computed: {
