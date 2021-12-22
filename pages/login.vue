@@ -1,5 +1,5 @@
 <template>
-<div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col">
+<div class="rounded px-8 pt-6 pb-8 mb-4 col-span-8 flex justify-center">
  <form @submit.prevent="userLogin">
     <div class="mb-4">
       <label class="block text-grey-darker text-sm font-bold mb-2" for="email">
